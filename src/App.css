@@ -1,20 +1,20 @@
 /* --------------------------------------------------body of app */
 .App {
+  min-height: 100vh;
   text-align: center;
   margin: 0;
   padding: 0;
   background-color: #282c34;
-  color: white;
+  color: #61dafb;
 }
 /* --------------------------------------------------header */
 .App-header {
-  min-height: 90vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 /* --------------------------------------------------logo */
@@ -45,4 +45,29 @@
 }
 .App-link {
   color: #61dafb;
+}
+
+/* --------------------------------------------------buttons */
+button {
+  margin: 0.5em;
+  padding: 0.5em;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background: #282c34;
+  box-shadow: 2px 2px 5px #1e2126, -2px -2px 5px #323742;
+  font-size: calc(10px + 2vmin);
+  color: #61dafb;
+}
+
+button:active {
+  background: linear-gradient(145deg, #24282f, #2b2f38);
+  box-shadow: 2px 2px 5px #1e2126, -2px -2px 5px #323742;
+}
+
+/* -------------------------------------------------- count result */
+.result {
+  font-size: calc(10px + 6vmin);
+  color: #61dafb;
+  margin: 2em;
 }

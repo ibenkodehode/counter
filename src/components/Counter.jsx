@@ -6,10 +6,10 @@ function Counter() {
 
   return (
     <div>
-      <p>{count}</p>
+      <p className="result">{count}</p>
       <button onClick={() => setCount(count + 1)}>Increment</button>
-      <button onClick={() => setCount(count - 1)}>Decrement</button>
       <button onClick={() => setCount(0)}>Clear</button>
+      <button onClick={() => setCount(count - 1)}>Decrement</button>
     </div>
   );
 }
