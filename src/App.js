@@ -9,8 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <main>
-        {" "}
-        <Counter />{" "}
+        <Counter />
       </main>
       <footer className="App-footer">
         <a
